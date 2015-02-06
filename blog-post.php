@@ -3,7 +3,6 @@
 <?php include_once "./meta.php" ?>
 
 <body>
-
 <?php include_once "./header.php" ?>
 <div class="container">
   <ol class="breadcrumb">
