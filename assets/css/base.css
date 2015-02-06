@@ -1,0 +1,105 @@
+/** base **/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 250px;
+  /* for the fixed nav bar */
+  padding-top: 50px;
+}
+
+.jumbotron {
+  background: url('../img/back-1.jpg') no-repeat center center;
+  position: relative;
+  width: 100%;
+  height: 400px; /*same height as jumbotron */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #000;
+}
+
+/** theme stuff **/
+/** does this make sense **/
+.jumbotron h1,
+.jumbotron p {
+  color: #fff;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.line-styled li {
+  border-bottom: 1px solid #5a5a5a;
+  margin: 4px 0 4px 0;
+}
+
+.main h2 {
+  border-bottom: 1px solid #5a5a5a;
+  margin-bottom: 10px;
+}
+
+/** right column **/
+.block {
+  margin-bottom: 30px;
+}
+.block li {
+  margin-bottom: 5px;
+}
+
+.more {
+  font-size: 12px;
+}
+
+.blog-teaser {
+  margin-bottom: 10px;
+}
+
+.blog-meta-data span:before {
+  display: inline-block;
+  content: "|";
+  padding: 0 7px 0 4px;
+  color: #9f9f9f;
+}
+.blog-post .blog-meta-data {
+  margin-bottom: 5px;
+}
+
+.blog-post .blog-meta-data {
+  font-weight: bold;
+}
+
+.blog-meta-data span:first-child:before {
+  display: none;
+  padding: 0;
+}
+
+.breadcrumb {
+  padding: 0px 0px;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.comment {
+  padding: 1px 5px 5px 10px;
+}
+
+.comment:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+.comment-meta-data {
+  margin-bottom: 5px;
+}
+
+.comment-meta-data .name {
+  font-weight: bold;
+}
