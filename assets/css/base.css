@@ -10,9 +10,12 @@ body {
   /* for the fixed nav bar */
   padding-top: 50px;
 }
+.navbar-nav>li>a {
+  font-size: 18px;
+}
 
 .jumbotron {
-  background: url('../img/back-1.jpg') no-repeat center center;
+  background: url('../img/back-1.jpg') repeat center center;
   position: relative;
   width: 100%;
   height: 400px; /*same height as jumbotron */
@@ -29,13 +32,19 @@ footer {
   background-color: #000;
 }
 
+.jumbotron-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 300px;
+  text-align: center;
+}
+
 /** theme stuff **/
-/** does this make sense **/
 .jumbotron h1,
 .jumbotron p {
   color: #fff;
-  margin-top: 50px;
-  text-align: center;
 }
 
 .line-styled li {
@@ -61,8 +70,51 @@ footer {
 }
 
 .blog-teaser {
-  margin-bottom: 10px;
+  float: left;
+  position: relative;
+  width: 350px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
+
+/** Trying an overlay with CSS **/
+
+.blog-teaser-image {
+  position: relative;
+}
+
+.blog-teaser-image .overlay {
+  transition:all 0.5s ease;
+  -webkit-transition:all 0.5s ease;
+}
+
+.blog-teaser-image:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0;
+  width: 350px;
+  height: 122px;
+  text-align: center;
+}
+.overlay-text {
+  position: absolute;
+  bottom: 0px;
+  width: 350px;
+  height: 61px;
+}
+
+.overlay-text h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #9f9f9f;
+}
+/** end overlay **/
 
 .blog-meta-data span:before {
   display: inline-block;
@@ -102,4 +154,53 @@ footer {
 
 .comment-meta-data .name {
   font-weight: bold;
+}
+
+.featurette-color {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f8f8f8;
+}
+
+.featurette-nocolor {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.featurette-images {
+  text-align: center;
+}
+
+.featurette-header {
+  text-align:center;
+}
+
+.featurette-header h2 {
+  border-bottom: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.featurette-header h2:before {
+  left: 340px;
+  top: 35px;
+}
+
+.featurette-header h2:before, .featurette-header h2:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #9f9f9f;
+  position: absolute;
+  width: 80px;
+}
+
+.featurette-header h2:after {
+  left: 740px;
+  top: 35px;
+}
+
+.featurette-image-small {
+  margin-left: 5px;
+  margin-right: 5px;
 }

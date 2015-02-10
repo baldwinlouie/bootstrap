@@ -15,14 +15,25 @@
 <div class="main">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-xs-12">
+        <?php
+        $count = 0;
+        while ($count <= 6) {
+        ?>
         <div class="blog-teaser">
-          <div class="blog-teaser-image">
-            <img
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Placeholder" class="img-thumbnail"
-              class="img-responsive"
-              style="width:370px; height:244px;">
+          <div class="blog-teaser-image" data-src="Read More">
+            <a href="blog-post.php">
+              <img
+                src="assets/img/blog_image1.jpg"
+                alt="Placeholder" class="img-thumbnail"
+                class="img-responsive"
+                style="width:370px; height:244px;">
+              <div class="overlay">
+                <div class="overlay-text">
+                  <h4>Read More</h4>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="blog-teaser-text">
             <h4><a href="blog-post.php">Aenean tellus metus bibendum</a></h4>
@@ -39,146 +50,15 @@
             </p>
             <a href="#" class="more">Read More</a>
           </div>
+          <hr>
         </div>
-        <hr>
+
+        <?php
+          $count ++;
+        }
+        ?>
       </div>
-      <div class="col-md-4">
-        <div class="blog-teaser">
-          <div class="blog-teaser-image">
-            <img
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Placeholder" class="img-thumbnail"
-              class="img-responsive"
-              style="width:370px; height:244px;">
-          </div>
-          <div class="blog-teaser-text">
-            <h4><a href="blog-post.php">Aenean tellus metus bibendum</a></h4>
-            <div class="blog-meta-data">
-              Posted
-              <span class="date">2.20.2015</span>
-              <span class="tags"><a href="#" class="more text-capitalize">alfa</a>, <a href="#" class="more text-capitalize">bmw</a></span>
-              <span class="comments">2 comments</span>
-            </div>
-            <p>
-              Donec vitae sapien ut libero venenatis faucibus. Vestibulum
-              suscipit nulla quis orci. Suspendisse enim turpis, dictum sed,
-              iaculis a, condimentum nec, nisi.
-            </p>
-            <a href="#" class="more">Read More</a>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="col-md-4">
-        <div class="blog-teaser">
-          <div class="blog-teaser-image">
-            <img
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Placeholder" class="img-thumbnail"
-              class="img-responsive"
-              style="width:370px; height:244px;">
-          </div>
-          <div class="blog-teaser-text">
-            <h4><a href="blog-post.php">Aenean tellus metus bibendum</a></h4>
-            <div class="blog-meta-data">
-              Posted
-              <span class="date">2.20.2015</span>
-              <span class="tags"><a href="#" class="more text-capitalize">alfa</a>, <a href="#" class="more text-capitalize">bmw</a></span>
-              <span class="comments">2 comments</span>
-            </div>
-            <p>
-              Donec vitae sapien ut libero venenatis faucibus. Vestibulum
-              suscipit nulla quis orci. Suspendisse enim turpis, dictum sed,
-              iaculis a, condimentum nec, nisi.
-            </p>
-            <a href="#" class="more">Read More</a>
-          </div>
-        </div>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="blog-teaser">
-          <div class="blog-teaser-image">
-            <img
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Placeholder" class="img-thumbnail"
-              class="img-responsive"
-              style="width:370px; height:244px;">
-          </div>
-          <div class="blog-teaser-text">
-            <h4><a href="blog-post.php">Aenean tellus metus bibendum</a></h4>
-            <div class="blog-meta-data">
-              Posted
-              <span class="date">2.20.2015</span>
-              <span class="tags"><a href="#" class="more text-capitalize">alfa</a>, <a href="#" class="more text-capitalize">bmw</a></span>
-              <span class="comments">2 comments</span>
-            </div>
-            <p>
-              Donec vitae sapien ut libero venenatis faucibus. Vestibulum
-              suscipit nulla quis orci. Suspendisse enim turpis, dictum sed,
-              iaculis a, condimentum nec, nisi.
-            </p>
-            <a href="#" class="more">Read More</a>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="col-md-4">
-        <div class="blog-teaser">
-          <div class="blog-teaser-image">
-            <img
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Placeholder" class="img-thumbnail"
-              class="img-responsive"
-              style="width:370px; height:244px;">
-          </div>
-          <div class="blog-teaser-text">
-            <h4><a href="blog-post.php">Aenean tellus metus bibendum</a></h4>
-            <div class="blog-meta-data">
-              Posted
-              <span class="date">2.20.2015</span>
-              <span class="tags"><a href="#" class="more text-capitalize">alfa</a>, <a href="#" class="more text-capitalize">bmw</a></span>
-              <span class="comments">2 comments</span>
-            </div>
-            <p>
-              Donec vitae sapien ut libero venenatis faucibus. Vestibulum
-              suscipit nulla quis orci. Suspendisse enim turpis, dictum sed,
-              iaculis a, condimentum nec, nisi.
-            </p>
-            <a href="#" class="more">Read More</a>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="col-md-4">
-        <div class="blog-teaser">
-          <div class="blog-teaser-image">
-            <img
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-              alt="Placeholder" class="img-thumbnail"
-              class="img-responsive"
-              style="width:370px; height:244px;">
-          </div>
-          <div class="blog-teaser-text">
-            <h4><a href="blog-post.php">Aenean tellus metus bibendum</a></h4>
-            <div class="blog-meta-data">
-              Posted
-              <span class="date">2.20.2015</span>
-              <span class="tags"><a href="#" class="more text-capitalize">alfa</a>, <a href="#" class="more text-capitalize">bmw</a></span>
-              <span class="comments">2 comments</span>
-            </div>
-            <p>
-              Donec vitae sapien ut libero venenatis faucibus. Vestibulum
-              suscipit nulla quis orci. Suspendisse enim turpis, dictum sed,
-              iaculis a, condimentum nec, nisi.
-            </p>
-            <a href="#" class="more">Read More</a>
-          </div>
-        </div>
-        <hr>
-      </div>
+
     </div>
   </div>
   <div class="container">
