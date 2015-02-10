@@ -10,6 +10,7 @@
   <div class="container">
     <div class="jumbotron-text">
       <h1>SOMETHING VERY INTERESTING GOES HERE</h1>
+
       <p>
         Do something cool here
       </p>
@@ -23,7 +24,7 @@
 
 <div class="container marketing">
   <div class="featurette-header">
-    <h2>Look at our beauty</h2>
+    <h2>Our Offerings</h2>
   </div>
   <!-- Three columns of text below the carousel -->
   <div class="row">
@@ -79,7 +80,7 @@
     <!-- /.col-lg-4 -->
   </div>
   <!-- /.row -->
-
+  <hr class="featurette-divider"/>
 </div>
 
 <div class="featurette-nocolor">
@@ -88,8 +89,9 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span
-            class="text-muted">It'll blow your mind.</span>
+            class="text-danger">It'll blow your mind.</span>
         </h2>
+
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla.
           Vestibulum id ligula porta felis euismod
           semper. Praesent commodo cursus magna, vel scelerisque nisl
@@ -112,12 +114,15 @@
           <h2>Look at our beauty</h2>
         </div>
         <div class="featurette-images">
-          <img class="featurette-image-small" data-src="holder.js/250x250/auto"
+          <img class="featurette-image-small" src="assets/img/night_scape.jpg"
                alt="Generic placeholder image">
-          <img class="featurette-image-small" data-src="holder.js/250x250/auto"
+          <img class="featurette-image-small" src="assets/img/ferris_wheel.jpg"
                alt="Generic placeholder image">
-          <img class="featurette-image-small" data-src="holder.js/250x250/auto"
+          <img class="featurette-image-small" src="assets/img/night_scape.jpg"
                alt="Generic placeholder image">
+          <h2>
+            These images show that we are so cool with us!
+          </h2>
         </div>
       </div>
     </div>
@@ -128,7 +133,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">And lastly, this one. <span
-            class="text-muted">Checkmate.</span></h2>
+            class="text-danger">Checkmate.</span></h2>
 
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla.
           Vestibulum id ligula porta felis euismod
